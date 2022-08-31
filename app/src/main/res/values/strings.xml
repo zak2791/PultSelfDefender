@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">H2H Tablo</string>
+    <string name="halfDec">-0.5</string>
+    <string name="halfInc">+0.5</string>
+    <string name="oneDec">-1</string>
+    <string name="oneInc">+1</string>
+    <string name="twoDec">-2</string>
+    <string name="twoInc">+2</string>
+    <string name="enter">enter</string>
+    <string name="zero">zero</string>
+</resources>
