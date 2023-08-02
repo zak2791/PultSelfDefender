@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Демонстрация техники</string>
+
+    <!--textView names start-->
+    <string name="tv_half">-0,5</string>
+    <string name="tv_one">-1</string>
+    <string name="tv_two">-2</string>
+    <!--textView names stop-->
+
+    <!--buttons names start-->
+    <string name="btn_err1">Не подана команда при выполнении</string>
+    <string name="btn_err2">Неэффектив ный захват</string>
+    <string name="btn_err3">Неэффектив ное конвоиро вание</string>
+    <string name="btn_err4">Выполнение медленное, без усилий</string>
+    <string name="btn_err5">Частичная потеря равновесия</string>
+    <string name="btn_err6">Нет ухода с линии атаки, нет блока</string>
+    <string name="btn_err7">Остановки, нарушения слитности</string>
+    <string name="btn_err8">Нет отвлекаю щих действий</string>
+    <string name="btn_err9">Ошибка ассистента</string>
+    <string name="btn_err10">Падение при выполнении приема</string>
+    <string name="btn_err11">Пропущен удар в туловище</string>
+    <string name="btn_err12">Оружие осталось на ковре</string>
+    <string name="btn_err13">Не выполнено конвоиро вание</string>
+    <string name="btn_err14">Превышение пределов само обороны</string>
+    <string name="btn_err15">Положение лежа после выполнения приема</string>
+
+    <string name="btn_zero">0</string>
+    <string name="btn_enter">ENTER</string>
+    <string name="btn_one">+1</string>
+    <!--button names stop-->
+</resources>
