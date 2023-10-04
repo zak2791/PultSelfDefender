@@ -458,7 +458,7 @@ public class MainActivity extends AppCompatActivity {
                 int p = msg.what;
                 String port = Integer.toString(p);
                 ed.putString(PORT_NUMBER, port);
-                ed.commit();
+                ed.apply();
                 String mat;
                 if(((p - 4000) / 100) < 2){
                     mat = "A" + Integer.toString((p - 4100) / 10);
@@ -468,8 +468,9 @@ public class MainActivity extends AppCompatActivity {
                 }
                 tvMat.setText(mat);
                 setPort(p);
-                Toast toast = Toast.makeText(getApplicationContext(), port, Toast.LENGTH_SHORT);
-                toast.show();
+                sPort = String.valueOf(p);
+                //Toast toast = Toast.makeText(getApplicationContext(), port, Toast.LENGTH_SHORT);
+                //toast.show();
             }
         };
 

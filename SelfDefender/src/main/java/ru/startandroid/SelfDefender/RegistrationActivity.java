@@ -126,8 +126,8 @@ public class RegistrationActivity extends AppCompatActivity  implements OnTouchL
                 //Toast toast = Toast.makeText(getApplicationContext(), "port " + String.valueOf(i), Toast.LENGTH_SHORT);
                 //toast.show();
                 setPort(i);
-                Toast toast = Toast.makeText(getApplicationContext(), i, Toast.LENGTH_SHORT);
-                toast.show();
+                //Toast toast = Toast.makeText(getApplicationContext(), i, Toast.LENGTH_SHORT);
+                //toast.show();
                 break;
             case R.id.bKey:
                 String key = etKey.getText().toString();
