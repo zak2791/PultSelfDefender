@@ -209,7 +209,7 @@ public class RegistrationActivity extends AppCompatActivity  implements OnTouchL
                             (byte) (ipAddress >> 16 & 0xff),
                             (byte) (ipAddress >> 24 & 0xff)};
                     InetAddress serverAddr = InetAddress.getByAddress(ip);
-                    DatagramPacket dp;                                                      //////////////////////////////////////
+                    DatagramPacket dp;                                                              //////////////////////////////////////
                     dp = new DatagramPacket(buf_send, 4 + lenID, serverAddr, port);          //////////////////////////////////////
                     udpSocket.send(dp);
                     if (udpSocket != null) {
